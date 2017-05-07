@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="Add_Player_Button" Content="Add Player" HorizontalAlignment="Left" Margin="27,214,0,0" VerticalAlignment="Top" Width="75" Click="Add_Player_Button_Click"/>
+        <TextBox x:Name="txt_fisrtName" HorizontalAlignment="Left" Height="23" Margin="27,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" PreviewTextInput="txt_fisrtName_PreviewTextInput"/>
+        <TextBox x:Name="txt_lastName" HorizontalAlignment="Left" Height="23" Margin="117,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txt_DOB" HorizontalAlignment="Left" Height="23" Margin="207,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" PreviewTextInput="txt_DOB_PreviewTextInput"/>
+        <Label x:Name="label_firstName" Content="First Name" HorizontalAlignment="Left" Margin="27,234,0,0" VerticalAlignment="Top" Width="85" Height="19" FontSize="8"/>
+        <Label x:Name="label_lastName" Content="Last Name" HorizontalAlignment="Left" Margin="117,234,0,0" VerticalAlignment="Top" Width="85" Height="19" FontSize="8"/>
+        <Label x:Name="label_dateOfBirth" Content="Date of Birth" HorizontalAlignment="Left" Margin="207,234,0,0" VerticalAlignment="Top" Width="85" Height="19" FontSize="8"/>
+
     </Grid>
 </Window>
